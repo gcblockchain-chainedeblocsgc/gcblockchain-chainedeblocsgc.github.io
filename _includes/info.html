@@ -1,0 +1,62 @@
+<section>
+  <h2>{{ site.MoreInformation[page.lang] }}</h2>
+  <div class="row wb-eqht">
+    <div class="col-md-8 col-sm-12">
+      <section class="col-md-6 col-sm-12">
+        {% assign pages=site.pages | where:"ref", 'how' | where:"lang", page.lang %}
+        {% for my_page in pages %}
+          <h3 class="h5"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ site.HowItWorks[page.lang] }}</a></h3>
+        {% endfor %}
+        <p>{{ site.HowItWorksDesc[page.lang] }}</p>
+      </section>
+      <section class="col-md-6 col-sm-12">
+        {% assign pages=site.pages | where:"ref", 'rules' | where:"lang", page.lang %}
+        {% for my_page in pages %}
+          <h3 class="h5"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ site.Rules[page.lang] }}</a></h3>
+        {% endfor %}
+        <p>{{ site.RulesDesc[page.lang] }}</p>
+        
+      </section>
+      <section class="col-md-6 col-sm-12">
+        {% assign pages=site.pages | where:"ref", 'locations' | where:"lang", page.lang %}
+        {% for my_page in pages %}
+          <h3 class="h5"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ site.Locations[page.lang] }}</a></h3>
+        {% endfor %}
+        <p>{{ site.LocationsDesc[page.lang] }}</p>
+      </section>
+    </div>
+
+    <section class="col-md-4 col-sm-6">
+      <h2>{{ site.JoinConversation[page.lang] }}</h2>
+      <h3 class="wb-inv">Twitter</h3>
+      <div class="wb-twitter">
+        <a class="twitter-timeline" href="https://twitter.com/hashtag/GCblockchain" data-widget-id="975738397963771909" data-tweet-limit="3">#GCblockchain</a>
+      </div>
+    </section>
+  </div>
+</section>   
+
+<section class="gc-prtts">
+  <h2>{{ site.UseCasesThemes[page.lang] }}</h2>
+  <p>{{ site.UseCasesThemesDesc[page.lang] }}</p>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mrgn-bttm-md">
+      <a href="#">
+        <figure>
+          <figcaption>{{ site.TalentCloud[page.lang] }}</figcaption>
+          <img src="{{ site.baseurl }}/assets/360x203.png" alt="360x203" class="img-responsive thumbnail mrgn-bttm-sm">
+          <p>{{ site.TalentCloudDesc[page.lang] }}</p>
+        </figure>
+      </a>
+    </div>
+    <div class="col-lg-4 col-md-6 mrgn-bttm-md">
+      <a href="#">
+        <figure>
+          <figcaption>{{ site.BuyAndSell[page.lang] }}</figcaption>
+          <img src="{{ site.baseurl }}/assets/360x203.png" alt="360x203" class="img-responsive thumbnail mrgn-bttm-sm">
+          <p>{{ site.BuyAndSellDesc[page.lang] }}</p>
+        </figure>
+      </a>
+    </div>
+  </div>
+</section>
