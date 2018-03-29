@@ -13,7 +13,7 @@
         <div class="row">
           <img id="gcwu-sig" src="{{ site.baseurl }}/assets/wet-boew/assets/sig-en.svg" alt="Government of Canada / Gouvernement du Canada">
           <ul id="gc-bar" class="list-inline">
-            <li><a href="https://github.com/gc-blockchain/gc-blockchain.github.io" rel="external">Github</a></li>
+            <li><a href="https://github.com/gcblockchain-chainedeblocsgc/gcblockchain-chainedeblocsgc.github.io" target="_blank" rel="external">Github</a></li>
             <li id="wb-lng"><h2>{{ site.LanguageSelection[page.lang] }}</h2>
               <ul class="list-inline">
                 {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
@@ -36,7 +36,7 @@
           <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
             <h2>{{ site.Menu[page.lang] }}</h2>
             <ul class="pnl-btn list-inline text-right">
-              <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">{{ site.Menu[page.lang] }}</span></span></span></a></li>
+              <li><a href="#mb-pnl" title="{{ site.Menu[page.lang] }}" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">{{ site.Menu[page.lang] }}</span></span></span></a></li>
             </ul>
             <div id="mb-pnl"></div>
           </section>

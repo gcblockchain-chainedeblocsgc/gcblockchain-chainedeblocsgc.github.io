@@ -7,7 +7,7 @@
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gb-blockchain.github.io" # the base hostname & protocol for your site
+url: "https://gcblockchain-chainedeblocsgc.github.io" # the base hostname & protocol for your site
 
 # Translations
 BuyAndSell:
