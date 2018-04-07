@@ -10,12 +10,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gcblockchain-chainedeblocsgc.github.io" # the base hostname & protocol for your site
 
 # Translations
-BuyAndSell:
-  en: Buy and Sell
-  fr: Achats et ventes
-BuyAndSellDesc:
-  en: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  fr: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description:
   en: GC Blockchain Codefest will start April 17th, 2018.  The deadline for solution submissions is Monday, April 23rd at 9:00am EST.
   fr: Le festicode Blockchain GC débutera le 17 avril 2018. La date limite pour les soumissions de solutions est le lundi 23 avril à 9h00 HNE.
@@ -29,8 +23,8 @@ HowItWorks:
   en: How it works
   fr: Comment ça fonctionne
 HowItWorksDesc:
-  en: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque praesentium, nulla ab nobis architecto repellendus hic iure laboriosam.
-  fr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque praesentium, nulla ab nobis architecto repellendus hic iure laboriosam.
+  en: Key dates, Teams, Submissions, Locations, Registration...
+  fr: Dates clées, équipes, soumissions, endroits, enregistrement...
 index:
   en: index.html
   fr: accueil.html
@@ -67,21 +61,15 @@ SkipToMain:
 SkipToAbout:
   en: Skip to "About this site"
   fr: Passer à « À propos de ce site »
-TalentCloud:
-  en: Talent Could
-  fr: Nuage de talent
-TalentCloudDesc:
-  en: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  fr: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Themes:
+  en: Themes
+  fr: Thèmes
+ThemesDesc:
+  en: Teams will select one theme from a provided list of public sector use cases. Teams may contact TBS and propose an alternative public sector use case.
+  fr: Les équipes sélectionneront un thème parmi une liste fournie de cas d'utilisation du secteur public. Les équipes peuvent contacter le SCT et proposer un autre cas d'utilisation du secteur public.
 title:
   en: GC Blockchain Codefest
   fr: Festicode Blockchain GC
-UseCasesThemes:
-  en: Use Cases and Themes
-  fr: Cas d'utilisation et thèmes
-UseCasesThemesDesc:
-  en: Teams will select one theme from a provided list of public sector use cases. Teams may contact TBS and propose an alternative public sector use case.
-  fr: Les équipes sélectionneront un thème parmi une liste fournie de cas d'utilisation du secteur public. Les équipes peuvent contacter le SCT et proposer un autre cas d'utilisation du secteur public.
 
 # Build settings
 markdown: kramdown
