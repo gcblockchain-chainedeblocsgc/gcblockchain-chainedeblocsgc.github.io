@@ -12,7 +12,7 @@
       <section class="col-md-6 col-sm-12">
         {% assign pages=site.pages | where:"ref", 'rules' | where:"lang", page.lang %}
         {% for my_page in pages %}
-          <h3 class="h5"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ site.Rules[page.lang] }}</a></h3>
+          <h3 class="h3"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ site.Rules[page.lang] }}</a></h3>
         {% endfor %}
         <p>{{ site.RulesDesc[page.lang] }}</p>
         
