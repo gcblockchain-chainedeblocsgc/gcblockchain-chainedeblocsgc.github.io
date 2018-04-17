@@ -1,0 +1,57 @@
+---
+layout: default
+ref: cdbr
+lang: en
+permalink: charitable-drop-box-registration.html
+---
+
+<h1>Charitable Drop Box Registration</h1>
+<h2>Problem / Opportunity</h2>
+<p>Drop boxes are used by registered charitable organizations, or authorized third parties collecting on their behalf, to collect donations of used clothing, household items, toys and other goods from the public. The donated items are given to clients of the charity or sold to raise funds for the charity. The drop boxes are located in municipalities across Canada</p>
+<p>However, drop boxes are increasingly being used by non-charitable organizations who sell the donated goods for profit.</p>
+<ul>
+	<li>According to City of Ottawa Councillor Rick Chiarelli, there were an estimated 400 new fraudulent donation boxes installed around the city in the recent past.</li>
+	<li>Sometimes boxes that were associated to a charity at one point are no longer raising funds for that charity.</li>
+</ul>
+This results in a shortage of donated goods available for the charitable organizations to provide to their clients.
+<p>Canadians who want to donate need up-to-date, accurate advice on which drop boxes are legitimate.</p>
+<h2>Actors</h2>
+<p>There are multiple levels of government and many other parties with various roles. </p>
+<p><strong>Registered Charity:</strong> Defined as having a registration number issued by the Canada Revenue Agency.</p>
+<p><strong>Operator:</strong> Defined as the operator of the clothing donation box. The operator may be the charity, someone a charity has authorized to collect on their behalf or someone who is not collecting on behalf of a charity. An operator is responsible for ensuring that the information on a drop box is kept current</p>
+<p><strong>Owner:</strong> Defined as the owner or occupant of a private property* that is not zoned residential. An owner is responsible for ensuring that the information on a drop box located on their property is kept current.</p>
+<p style="margin-left: 40px;">*Private property is defined as any property not owned by the municipality.</p>
+<p><strong>Canada Revenue Agency:</strong> Validates the charitable status of an organization.</p>
+<p><strong>Municipality:</strong> Municipal by-law officers ensure bylaw is being adhered to. They can validate a donation box is authorized to be located on the private property where it has been placed and whether the information on the donation box is accurate.</p>
+<p style="margin-left: 40px;">Donation box information requirements in the City of Ottawa are:</p>
+<ul style="margin-left: 40px;">
+	<li>name and address of the owner; </li>
+	<li>business name of the owner and operator, if applicable; </li>
+	<li>type of organization if the operator not a charity; </li>
+	<li>the Canada Revenue Agency registration number if the operator is a charity; </li>
+	<li>the name, address and telephone number of the operator; </li>
+	<li>schedule of times for pick-up of donated clothing; and </li>
+	<li>location of any alternative clothing donation boxes of the same operator. </li>
+</ul>
+<p><strong>Public:</strong> Able to find donation boxes belonging to registered charities and to report suspected fraudulent registrations.&nbsp;</p>
+<h2>Constraints</h2>
+<p>Until digital identity is resolved, there is no means of identity-proofing those submitting transactions. Assume anyone creating a transaction is authorized to do so.</p>
+<p>Need an API to check the registered status of a charity. There isn’t one at this time.</p>
+<h2>Desired Outcome</h2>
+<p>There are individual listings maintained by individual charities that use a Google maps mash-up to show their authorized drop-off boxes locations. There is a similar City of Ottawa view posted by Councillor Rick Chiarelli that combines this information for a few charitable organizations.</p>
+<p>The solution for this use case attempts to accomplish more. Although information about the City of Ottawa bylaws is included, the solution could be generic enough to be national in scope.</p>
+<p>A solution that:</p>
+<ul>
+	<li>Allows a registered charity to specify the location and operator of their drop boxes.</li>
+	<li>Allows a registered charity to update the location of a drop box.</li>
+	<li>Allows a registered charity to update the operator of a drop box.</li>
+	<li>Allows a registered charity to update the drop box registry when they are no longer associated with a particular drop box.</li>
+	<li>Notifies a registered charity when the location or operator of a drop box registered to them changes.</li>
+	<li>Allows an operator to update the location of a drop box.</li>
+	<li>Allows an owner or occupant of private property to provide or rescind permission for a drop box to be located on their property.</li>
+	<li>Allows the public to validate the charitable status of a charity identified by the Canada Revenue Agency registration number identified on the drop box.</li>
+	<li>Allows the public to validate the donations are being collected on behalf of the stated charity.</li>
+	<li>Allows the municipality to validate compliance with the Clothing Donation Box By-law (City of Ottawa By-law No. 2013-98 used for this example but could be any).</li>
+</ul>
+
+{% include info.html %}
